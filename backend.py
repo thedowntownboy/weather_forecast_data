@@ -8,7 +8,6 @@ def get_data(place="tokyo", days=None, option=None):
     response = requests.get(url)
     content = response.json()
     filtered_content = content['list'][:8*days]
-
     return filtered_content
 
 
