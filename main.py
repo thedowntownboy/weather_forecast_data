@@ -29,7 +29,16 @@ try:
             images = {"Clear": 'images/clear.png', "Clouds": 'images/cloud.png',
                       "Rain": 'images/rain.png', "Snow": 'images/snow.png'}
             image_path = [images[condition] for condition in filtered_content]
-            st.image(image_path, width=115)
+            st.write("D1")
+            st.image(image_path[0:8], width=115)
+            st.write("D2")
+            st.image(image_path[8:16], width=115)
+            st.write("D3")
+            st.image(image_path[16:24], width=115)
+            st.write("D4")
+            st.image(image_path[24:32], width=115)
+            st.write("D5")
+            st.image(image_path[32:40], width=115)
 
 except KeyError:
     st.warning("The place you entered does not exist, enter valid place")
