@@ -1,6 +1,10 @@
 import requests
 
-api_key = "a19de81303b89f94f914f6431dbd76c8"
+
+
+
+api_key = SECRET_KEY
+
 
 
 def get_data(place="tokyo", days=None, option=None):

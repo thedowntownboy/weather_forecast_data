@@ -17,7 +17,7 @@ try:
 
         # plotly is used to render the graph as it works with streamlit
         if option == "Temperature":
-            temperature = [item['main']['temp'] / 10 for item in filtered_content]
+            temperature = [item['main']['temp'] - 273.15 for item in filtered_content]
 
             dates = [item['dt_txt'] for item in filtered_content]
             figure = px.line(x=dates, y=temperature,
