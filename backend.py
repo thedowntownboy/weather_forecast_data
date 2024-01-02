@@ -1,9 +1,13 @@
 import requests
+import os
+
+
+
+os.environ.get('SECRET_KEY')
 
 
 
 
-api_key = SECRET_KEY
 
 
 
