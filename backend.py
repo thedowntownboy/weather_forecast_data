@@ -3,7 +3,7 @@ import os
 
 
 
-os.environ.get('SECRET_KEY')
+api_key = os.environ.get('SECRET_KEY')
 
 
 
