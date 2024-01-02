@@ -1,0 +1,4 @@
+﻿requests==2.31.0
+streamlit==1.12.0
+altair==4.0
+plotly==5.15.0
